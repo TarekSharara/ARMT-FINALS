@@ -1,6 +1,6 @@
 /* ARMT Final – offline service worker. Change VERSION after every update of index.html */
 const PREFIX = "armt-final-";
-const VERSION = PREFIX + "v2";
+const VERSION = PREFIX + "v3";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
